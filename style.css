@@ -1,0 +1,65 @@
+/* palette: https://www.color-hex.com/color-palette/83803 */
+
+* {
+  font-family: "IBM Plex Mono", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#p5-canvas {
+  width: 640px;
+
+  position: relative;
+  margin: 1rem auto;
+  border: none;
+  overflow: auto;
+}
+
+.p5canvas {
+  float: left;
+  clear;
+}
+
+
+#play-btn {
+  position: absolute;
+  left: 270px;
+  top: 220px;
+  border: 1px solid;
+  font-size: 1rem;
+  height: 40px;
+  width: 100px;
+  color: #b900ff;
+}
+
+h1 {
+  margin: 1rem auto 0.5rem auto;
+  font-size: 4rem;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  color: #b900ff;
+}
+
+#foot {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
